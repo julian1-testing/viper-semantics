@@ -2,7 +2,7 @@
 
 ## Viper Language
 
-Viper is a new experimental language in the smart contract domain. It is designed by Ethereum foundation, supposedly being simpler and more secure language than Solidity by factoring out the essential components in writing smart contracts, based on their experience of deploying and operating hundreds of thousands of smart contracts over the last two years.
+[Viper](https://github.com/ethereum/viper) is a new experimental language in the smart contract domain. It is designed by Ethereum foundation, supposedly being simpler and more secure language than Solidity by factoring out the essential components in writing smart contracts, based on their experience of deploying and operating hundreds of thousands of smart contracts over the last two years.
 
 Specifically, Viper is an object-oriented language; a smart contract is represented as a class where the data fields hold the contract status and the methods provides the contract functionalities. Notably, however, it has no explicit inheritance --- one of the main design decision made based on their extensive experience of writing smart contracts. They found that security is more important than programming convenience, thus the minimality has obvious advantages.
 
